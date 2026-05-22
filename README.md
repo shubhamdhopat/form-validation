@@ -1,16 +1,53 @@
-# React + Vite
+# 📋 React Hook Form Validation App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple form validation project built using React Hook Form.
+This app demonstrates form handling, validation, error messages, and submission states in React.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Form validation using React Hook Form
+* Required field validation
+* Minimum and maximum length validation
+* Pattern validation using Regular Expressions
+* Error messages for invalid inputs
+* Submit button disabled while submitting
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* React Hook Form
+* JavaScript
+* CSS
 
-## Expanding the ESLint configuration
+## 📚 Concepts Practiced
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Using `useForm`
+* Registering form inputs
+* Handling form submission
+* Form validation rules
+* Accessing validation errors
+* Managing submission state with `isSubmitting`
+
+## ▶️ Run Locally
+
+```bash id="8f9h2x"
+npm install
+npm run dev
+```
+
+## 📂 Validation Rules
+
+* **First Name**
+
+  * Required
+  * Minimum 3 characters
+  * Maximum 10 characters
+
+* **Last Name**
+
+  * Only alphabets allowed
+
+## 📸 Preview
+
+<img width="961" height="529" alt="Screenshot 2026-05-23 at 2 06 10 AM" src="https://github.com/user-attachments/assets/71e4e692-e351-4435-a194-917f16722089" />
+
